@@ -4,6 +4,7 @@ import glsl from "vite-plugin-glsl";
 import path from "path";
 // https://vitejs.dev/config/
 export default defineConfig({
+  base:"./",
   plugins: [react(), glsl()],
   resolve: {
     alias: {

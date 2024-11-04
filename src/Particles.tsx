@@ -14,7 +14,7 @@ import { useControls } from "leva";
 import { useTexture } from "@react-three/drei";
 import { useFrame } from "@react-three/fiber";
 const Particles = () => {
-  const particleMaskTexture = useTexture("/images/particleMask.png");
+  const particleMaskTexture = useTexture("/particleMask.png");
   const { size, progressSpeed, perlinFrequency, perlinMultiplier } =
     useControls("Particles", {
       size: {

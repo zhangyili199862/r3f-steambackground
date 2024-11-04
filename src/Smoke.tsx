@@ -12,7 +12,7 @@ import {
 } from "three";
 
 const Smoke = () => {
-  const texture = useTexture("/images/smoke.png");
+  const texture = useTexture("/smoke.png");
   console.log(texture);
   const count = 10;
   const smokeRef = useRef<Group>(null);
